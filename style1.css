@@ -1,0 +1,90 @@
+.sign-in-btn {
+  margin-left: 25px;
+  color: #fff;
+  border-radius: 7px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffffff;
+  font-weight: 600;
+}
+.sign-up-btn {
+  margin-left: 25px;
+  color: #000832;
+  border-radius: 7px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #FBD44E;
+  font-weight: 600;
+  background:#FBD44E;
+}
+
+.font-white{
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .sign-up-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 20px 7px 20px;
+  }
+  .sign-in-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 20px 7px 20px;
+  }
+}
+.ml-20{
+	margin-left: 20px;
+}
+
+.ml-10{
+	margin-left: 10px;
+}
+
+#hero{
+	background-image: url('assets/img/Rectangle-2.png');
+}
+
+.lowest-trading{
+	font-size: 32px;
+	letter-spacing: 0.54px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+#hero .get-started{
+	text-align: center;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	font-size: 19px;
+	padding-left: 18.75rem;
+	padding-right: 18.75rem;
+}
+
+.register-btn{
+	margin-left: 25px;
+  color: #000832;
+  border-radius: 7px;
+  padding: 10px 25px 10px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #FBD44E;
+  font-weight: 600;
+  background:#FBD44E;
+}
+
+.register-section{
+	display: flex;
+	width: 40%;
+}
+
+#hero .container .row .register-section .form-control{
+	height: calc(1.5em + 0.75rem + 9px);
+}
